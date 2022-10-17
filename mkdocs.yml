@@ -1,0 +1,29 @@
+site_name: Testing MKDocs Sites
+theme:
+  name: material
+  features: 
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.prune
+
+markdown_extensions:
+  # - admonition
+  # - codehilite
+  # - smarty
+  # - meta
+  # - toc:
+  #     permalink: True
+  # - markdown_include.include:
+  #     base_path: docs
+  - attr_list
+
+nav:
+  - Formatting:
+    - Formatting Pages: formatting/ben-test.md
+  - Main Area:
+    - index.md
+
+extra_css:
+  - stylesheets/extra.css

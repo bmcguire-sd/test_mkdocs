@@ -1,0 +1,19 @@
+
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# pyenv
+.python-version
+
+# virtualenv
+venv/
+ENV/
+
+# Local env
+env/
+.env
+
+# MkDocs documentation
+site*/
